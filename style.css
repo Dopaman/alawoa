@@ -1,0 +1,23 @@
+html {
+  overflow: hidden; }
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: arial;
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+#logo {
+    /*border-right: 1px solid #F2F1EB;*/
+    display: table-cell;
+    float: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    vertical-align: bottom;
+    z-index: 3;
+}
